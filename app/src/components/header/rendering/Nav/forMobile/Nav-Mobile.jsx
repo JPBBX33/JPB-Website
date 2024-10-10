@@ -1,13 +1,15 @@
 import Link from "next/link";
 
+import { Lora } from "next/font/google";
 import NavbarLinks from "../../../../../../constants/links";
 import { CloseMenu, HamburgerMenu } from "../../../../../UI/Icons";
 
+const lora = Lora({ subsets: ["latin"], weight: "400" });
 export default function Nav({ handleClick, menuOpen }) {
   return (
-    <nav className="flex xl:hidden justify-between items-center p-4 bg-secondary-ligth">
-      <Link className="flex flex-col text-center font-bold text-lg" href={"/"}>
-      Jean-Piere Bost <span className="">Photographe</span>
+    <nav className="flex xl:hidden justify-between items-center px-8 py-4 bg-secondary-ligth">
+      <Link className={`flex flex-col text-center font-bold text-lg ${lora.className}`} href={"/"}>
+      Jean-Piere Bost <span className="text-[#706044]">Photographe</span>
       </Link>
  
 

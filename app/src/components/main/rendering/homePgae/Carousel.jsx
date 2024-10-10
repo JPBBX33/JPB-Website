@@ -6,7 +6,7 @@ function LazyLoad() {
 
 
   const images = [
-    "/images/JP1_3425.JPG",
+    "/images/JP1_1.JPG",
     "/images/JP1_4130.JPG",
     "/images/JP1_5218.JPG",
     "/images/JP1_6863.JPG",
@@ -17,12 +17,14 @@ function LazyLoad() {
     lazyLoad: true,
     infinite: true,
     speed: 500,
+    autoplay: true,
+    speed: 2000,
     slidesToShow: 1,
     slidesToScroll: 1,
     initialSlide: 0
   };
   return (
-    <div className="slider-container ">
+    <div className="slider-container p-4">
       <Slider {...settings} >
         {images.map((image, index) => (
             <div key={index} className="w-full max-h-96">
