@@ -1,9 +1,6 @@
-import Image from "next/image";
-
+import HomePage from "./src/components/main/rendering/homePgae/index";
 export default function Home() {
   return (
-    <div>
-     <h1>JPB - Initial Commit test</h1>
-    </div>
+   <HomePage></HomePage>
   );
 }
