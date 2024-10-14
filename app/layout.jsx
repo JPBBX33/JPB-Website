@@ -1,9 +1,9 @@
+import { Poppins } from "next/font/google";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import "./globals.css";
+import Footer from "./src/components/footer/rendering/index";
 import Header from "./src/components/header/rendering/Index";
-
-import { Poppins } from "next/font/google";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -23,6 +23,7 @@ export default function RootLayout({ children }) {
       <body className={`${poppins.className} font-light`}>
         <Header />
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );
