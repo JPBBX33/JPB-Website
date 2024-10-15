@@ -14,6 +14,9 @@ module.exports = {
           ligth: "#F7F7F0",
         },
       },
+      backgroundImage:{
+        galleryPage: "url('/images/JP1_0633.jpg')",
+      }
     },
   },
   plugins: [],

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import services from "../../../../../data/services";
+import services from "../../../../data/services";
 export default function Services({ lora }) {
   return (
     <div className="px-2 py-6">

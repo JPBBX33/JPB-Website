@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { CiFacebook, CiInstagram, CiTwitter } from "react-icons/ci";
 import { IoClose, IoMenu } from "react-icons/io5";
-import socialLinks from "../../constants/socialLinks";
+import socialLinks from "../constants/socialLinks";
 const HamburgerMenu = ({ onClick, size, color }) => {
   return (
     <button onClick={onClick} aria-label="Ouvrir la barre latérale du menu">

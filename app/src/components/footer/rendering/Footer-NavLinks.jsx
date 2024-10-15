@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import links from '../../../../constants/links';
+import links from '../../../constants/links';
 export default function FooterNavLinks() {
   return (
     <div className="p-2">

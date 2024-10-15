@@ -1,10 +1,10 @@
 import { Lora } from "next/font/google";
 import Link from "next/link";
-import NavbarLinks from "../../../../../../constants/links";
+import NavbarLinks from "../../../../../constants/links";
 const lora = Lora({ subsets: ["latin"], weight: "400" });
 export default function Nav() {
   return (
-    <nav className="hidden xl:flex  p-4 bg-secondary-ligth">
+    <nav className="hidden xl:flex h-20 p-4 bg-secondary-ligth">
       <div className="flex justify-between items-center w-[80%] 2xl:w-3/4 m-auto">
 
       <Link className={`text-center font-bold text-xl ${lora.className}`} href={"/"}>
