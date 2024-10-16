@@ -27,8 +27,8 @@ function LazyLoad() {
     <div className="slider-container p-4">
       <Slider {...settings} >
         {images.map((image, index) => (
-            <div key={index} className="w-full max-h-96">
-            <Image src={image} width={2000} height={500} alt="test"/>
+            <div key={index} className="relative w-full">
+            <Image src={image} width={1000} height={1000} alt="test" className="w-full h-60  sm:h-96 object-cover"/>
           </div>
         ))}
       

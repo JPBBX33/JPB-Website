@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@vercel/blob": "^0.25.1",
     "dotenv": "^16.4.5",
     "next": "14.2.11",
     "nodemailer": "^6.9.15",
