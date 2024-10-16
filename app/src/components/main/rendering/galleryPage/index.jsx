@@ -2,6 +2,7 @@ import { Lora } from "next/font/google";
 
 import GalleryBanner from "./Gallery-banner";
 import GalleryItems from "./Gallery-items";
+
 const lora = Lora({ subsets: ["latin"], weight: "400" });
 
 export default function Index() {

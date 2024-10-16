@@ -72,7 +72,7 @@ export default function index() {
 
         <div className="lg:w-2/4 sm:p-4">
           <Image
-            src="/images/JP1_4159.JPG"
+            src="/images/JP1_4458.JPG"
             width={500}
             height={500}
             alt="Photo de Jean-Pierre Bost"

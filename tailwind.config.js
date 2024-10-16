@@ -16,7 +16,7 @@ module.exports = {
       },
       backgroundImage:{
         galleryBaner: "url('/images/BJPB_286.JPG')",
-        servicesBaner: "url('/images/JP1_4159.jpg')",
+        servicesBaner: "url('/images/BJPB_333.JPG')",
       }
     },
   },

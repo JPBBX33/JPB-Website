@@ -3,7 +3,7 @@ const gallery = [
  "/images/JP1_0633.jpg",  
  "/images/JP1_4130.JPG",  
  "/images/BJPB_032.JPG", 
- "/images/BJPB_070.JPG", 
+ "/images/BJPB_032.JPG", 
  "/images/BJPB_103.JPG", 
  "/images/BJPB_153.JPG", 
  "/images/BJPB_156.jpg", 

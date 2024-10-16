@@ -15,7 +15,7 @@ const services = [
     id: 3,
     title: "Montage vidéo",
     description: "Création de vidéos récapitulatives de vos événements avec une narration dynamique et des transitions soignées.",
-    image: "/images/JP1_6863.jpg",
+    image: "/images/JP1_4458.jpg",
   }
 ]
 

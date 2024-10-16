@@ -1,6 +1,6 @@
 export default function ServicesBanner({ lora }) {
   return (
-    <div className="relative min-h-80 w-full bg-servicesBaner bg-cover">
+    <div className="relative min-h-80 w-full bg-servicesBaner bg-center bg-cover">
       <div
         className="absolute inset-0 flex flex-col items-center justify-center bg-black opacity-60"
         aria-hidden="true"
