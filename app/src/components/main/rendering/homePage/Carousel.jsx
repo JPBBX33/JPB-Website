@@ -4,7 +4,6 @@ import Image from "next/image";
 import Slider from "react-slick";
 function LazyLoad() {
 
-
   const images = [
     "/images/JP1_1.JPG",
     "/images/BJPB_156.jpg",
