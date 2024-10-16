@@ -1,4 +1,4 @@
-import Home from "./src/components/main/rendering/homePgae/Index";
+import Home from "./src/components/main/rendering/homePage/Index";
 
 export const metadata = {
   title: "Jean-Pierre Bost - Photographe & Vidéaste événementiel",
