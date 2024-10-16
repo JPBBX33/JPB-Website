@@ -1,7 +1,7 @@
 
 export default function GalleryBanner({lora}) {
   return (
-    <div className="relative min-h-96 w-full bg-galleryPage bg-cover">
+    <div className="relative min-h-96 w-full bg-galleryBaner bg-cover">
         <div
           className="absolute inset-0 flex flex-col items-center justify-center bg-black opacity-60"
           aria-hidden="true"
