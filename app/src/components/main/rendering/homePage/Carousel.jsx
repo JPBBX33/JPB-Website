@@ -7,9 +7,9 @@ function LazyLoad() {
 
   const images = [
     "/images/JP1_1.JPG",
-    "/images/BJPB_286.JPG",
-    "/images/JP1_5218.JPG",
-    "/images/BJPB_333.JPG",
+    "/images/BJPB_156.jpg",
+    "/images/BJPB_381.JPG",
+    "/images/GPL_0191.jpg",
   ]
 
   const settings = {

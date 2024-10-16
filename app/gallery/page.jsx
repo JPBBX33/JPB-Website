@@ -1,4 +1,4 @@
-import GalleryPage from "../src/components/main/rendering/galleryPage/Index";
+import GalleryPage from "../src/components/main/rendering/galleryPage/Index.jsx";
 
 export const metadata = {
   title: "Jean-Pierre Bost - Galerie",
