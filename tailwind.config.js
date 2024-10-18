@@ -8,9 +8,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "#FFE08B",
+        secondary: {
+          brun: "#6F6043",
+          ligth: "#F7F7F0",
+        },
       },
+      backgroundImage:{
+        galleryBaner: "url('/images/gallery.jpg')",
+        servicesBaner: "url('/images/services.jpg')",
+      }
     },
   },
   plugins: [],

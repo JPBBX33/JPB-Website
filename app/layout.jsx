@@ -1,4 +1,16 @@
+import { Poppins } from "next/font/google";
+import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css";
 import "./globals.css";
+import Footer from "./src/components/footer/rendering/index";
+import Header from "./src/components/header/rendering/Index";
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["300", "400", "700", "800", "900"],
+});
+
+
 
 export const metadata = {
   title: "Create Next App",
@@ -8,7 +20,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="fr">
-      <body>{children}</body>
+      <body className={`${poppins.className} font-light`}>
+        <Header />
+        <main>{children}</main>
+        <Footer />
+      </body>
     </html>
   );
 }
