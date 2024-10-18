@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import transporter from "../../src/lib/transporter";
+
 export async function POST(request) {
   const {
     lastName,
@@ -11,7 +12,7 @@ export async function POST(request) {
 
   const mailOptions = {
     from: email,
-    to: `romsher.dev@gmail.com`,
+    to: `${process.env.USER_EMAIL}`,
     subject: `Nouveaux message de ${lastName} ${firstName}`,
     text: `
       Nom: ${lastName}
