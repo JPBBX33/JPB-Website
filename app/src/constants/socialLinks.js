@@ -4,11 +4,11 @@ const socialLinks = {
     aria: 'Liens vers la page Facebook',
   },
   instagram: {
-    link: 'https://www.instagram.com/coach_alexis_montagnani/',
+    link: 'https://www.instagram.com/jpbostmariages/',
     aria: 'Liens vers la page Instagram',
   },
   twitter: {
-    link: 'https://twitter.com/AlexisMontagnan',
+    link: 'https://x.com/JPBX',
     aria: 'Liens vers la page Twitter',
   }
 }

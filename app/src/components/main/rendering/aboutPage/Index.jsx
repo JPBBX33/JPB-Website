@@ -23,7 +23,7 @@ export default function index() {
 
         <div className="lg:w-2/4 sm:p-4">
           <Image
-            src={"/images/GD_0199.JPG"}
+            src={"/images/about1.jpg"}
             width={500}
             height={500}
             alt="Photo de Jean-Pierre Bost"
@@ -47,7 +47,7 @@ export default function index() {
 
         <div className="lg:w-2/4 sm:p-4">
           <Image
-            src={"/images/JP1_0633.jpg"}
+            src={"/images/about2.jpg"}
             width={500}
             height={500}
             alt="Photo de Jean-Pierre Bost"
@@ -72,7 +72,7 @@ export default function index() {
 
         <div className="lg:w-2/4 sm:p-4">
           <Image
-            src="/images/JP1_4458.JPG"
+            src="/images/about3.jpg"
             width={500}
             height={500}
             alt="Photo de Jean-Pierre Bost"

@@ -18,7 +18,7 @@ export default function Philosophy({lora}) {
       </div>
       <div className="hidden md:flex">
         <Image
-          src={"/images/JP1_4458.JPG"}
+          src={"/images/philosophy.jpg"}
           width={500}
           height={500}
           alt="test"

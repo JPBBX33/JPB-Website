@@ -5,10 +5,10 @@ import Slider from "react-slick";
 function LazyLoad() {
 
   const images = [
-    "/images/JP1_1.jpg",
-    "/images/BJPB_156.jpg",
-    "/images/BJPB_381.JPG",
-    "/images/JP1_4130.JPG",
+    "/images/carousel3.jpg",
+    "/images/carousel4.jpg",
+    "/images/carousel2.jpg",
+    "/images/carousel1.jpg",
   ]
 
   const settings = {
@@ -28,7 +28,7 @@ function LazyLoad() {
       <Slider {...settings} >
         {images.map((image, index) => (
             <div key={index} className="relative w-full">
-            <Image src={image} width={1500} height={1500} alt="test" className="w-full h-60  sm:h-96 object-cover"/>
+            <Image src={image} width={2000} height={1000} alt="test" className="w-full  sm:h-96  object-cover"/>
           </div>
         ))}
       

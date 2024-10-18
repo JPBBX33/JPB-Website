@@ -9,12 +9,13 @@ export default function Services({ lora }) {
       <div className="flex gap-10 items-center justify-center flex-wrap w-full ">
         {services.map((service) => (
           <div key={service.id} className="md:max-w-[40%] lg:max-w-[30%] ">
-            <div className="relative">
+            <div className="relative min-h-80">
               <Image
                 src={service.image}
-                width={500}
-                height={500}
+                width={1000}
+                height={1000}
                 alt={`Image du service ${service.title}`}
+                className="h-80 w-full object-cover"
               />
 
               <div className="absolute flex flex-col items-center justify-center top-0 left-0 w-full h-full bg-black opacity-70" ></div>
