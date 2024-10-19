@@ -12,7 +12,7 @@ export async function POST(request) {
 
   const mailOptions = {
     from: email,
-    to: `${process.env.USER_EMAIL}`,
+    to: `${process.env.USER_MAIL}`,
     subject: `Nouveaux message de ${lastName} ${firstName}`,
     text: `
       Nom: ${lastName}
